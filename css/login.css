@@ -1,0 +1,30 @@
+.login-container {
+    background-image: url(../images/register-background\ \(6\).jpg);
+    background-size: 75% 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.login-container .aside-right{
+    height: 100vh;
+    background-color: #fff;
+    width: 26%;
+}
+.login-container .aside-right .header h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center; 
+    margin-top: 50px;
+    color: #333; 
+}
+#login-form{
+    padding: 20px; 
+}
+.form-action {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+#reminder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}

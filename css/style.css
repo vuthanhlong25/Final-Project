@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.input-wrapper input{
+    border: 1px solid #dbdbdb;
+    padding:10px 15px; 
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+.input-wrapper {
+    margin-bottom: 10px;
+}
+.btn {
+    padding: 8px 20px;
+    color: #ffffff; 
+    background-color: #037BFE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.error { 
+    color: #ff0000;
+}
+#redirect-to-login{
+    cursor: pointer;
+}
+#redirect-to-register{
+    cursor: pointer;
+}
+.header{
+    text-align: center;
+    height: 64px; 
+    line-height: 64px;
+    color: #ffffff;
+    background-color: #037BFE;
+    font-size: 28px; 
+}
+.btn-light{
+    background: none; 
+    color: #333; 
+     
+}
+.aside-right .header {
+    background-color: #ffffff;
+}

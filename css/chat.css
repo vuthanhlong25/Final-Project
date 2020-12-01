@@ -1,0 +1,110 @@
+.header{
+    text-align: center;
+    height: 64px; 
+    line-height: 64px;
+    color: #ffffff;
+    background-color: #037BFE;
+    font-size: 28px; 
+}
+.conversation-header {
+    text-align: center; 
+    line-height: 64px; 
+    height: 64px; 
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid #dbdbdb;
+}
+.chat-container {
+    height: 100vh; 
+
+}
+
+.chat-container .main{
+    height: calc(100% - 64px);
+    display: flex; 
+}
+.chat-container .main .conversation-detail{
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 85%; 
+
+}
+.conversation-detail .list-messages{
+    flex-grow: 1;
+}
+.input-wrapper input{
+    border: none;
+    border-top: 1px solid #dbdbdb;
+    height: 64px;
+}
+#send-message-form{
+    position:relative; 
+}
+#send-message-form button{
+    position: absolute;
+    right: 15px; 
+    top: 20px; 
+    background: none;
+    border: none;
+    color: #037BFE;
+    font-size: 20px;
+}
+#send-message-form .input-wrapper{
+    margin-bottom: 0px; 
+}
+.chat-container .message-container{
+    margin: 10px;
+}
+.chat-container .list-messages{
+    overflow-y:auto;
+
+}
+
+.chat-container .message-container .content{
+    padding: 7px 10px; 
+    border-radius: 5px;
+    max-width: 40%;
+    width: max-content;
+    word-break: break-all;
+}
+.chat-container .message-container.their .content{
+    background: whitesmoke; 
+}
+.chat-container .message-container.mine .content{
+    background: #037BFE;
+    color: white; 
+}
+.chat-container .message-container.mine{
+    display: flex; 
+    justify-content: flex-end;
+}
+.chat-container .aside-left{
+    width: 15%;
+    height: 100%; 
+    border-right: 1px solid #dbdbdb 
+}
+.chat-container .create-conversation{
+    height: 64px; 
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+    line-height: 64px; 
+}
+.chat-container .list-conversations .conversation{
+    padding: 5px 10px; 
+}
+.chat-container .list-conversations .conversation.current{
+    background-color: #dbdbdb; 
+}
+.chat-container .aside-right{
+    padding: 10px;
+    border-left: 1px solid #dbdbdb; 
+    width: 15%; 
+}
+.chat-container .aside-right .user{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.chat-container #add-user-form{
+    margin-top: 12px; 
+}

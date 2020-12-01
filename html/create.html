@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="create-conversation-container">
+        <div class="header">
+            MindX chat
+        </div>
+        <div class="main" style="padding: 50px 20%">
+            <form id="create-conversation-form">
+                <div>
+                    Create a new conversation
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Conversation Name" name="conversationTitle">
+                    <div class="error" id="conversation-name-error">
+                    </div>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" placeholder="Friend's Email" name="conversationEmail">
+                    <div class="error" id="conversation-email-error">
+                    </div>
+                </div>
+                <button type="submit" class="btn">Save</button>
+                <button type="submit" class="btn btn-light">Cancel</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>

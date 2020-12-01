@@ -1,0 +1,29 @@
+.welcome-container{
+    background: url(../images/3227422.jpg);
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
+}
+.welcome-user {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    color: #e62552;
+    padding-top: 45px;
+    text-align: center;
+    opacity: 1 !important;
+}
+.welcome-slogan{
+    font-family: 'Fjalla One', sans-serif;
+    color: #e62552;
+    padding: 30px;
+    text-align: center;
+    opacity: 100% !important;
+
+}
+.welcome-slogan h5{
+    padding: 10px;
+    font-family: 'Hind', sans-serif; 
+    color: #1a2e35;
+}
